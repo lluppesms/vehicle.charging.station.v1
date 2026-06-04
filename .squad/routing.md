@@ -6,20 +6,25 @@ How to decide who handles what.
 
 | Work Type | Route To | Examples |
 |-----------|----------|----------|
-| {domain 1} | {Name} | {example tasks} |
-| {domain 2} | {Name} | {example tasks} |
-| {domain 3} | {Name} | {example tasks} |
-| Code review | {Name} | Review PRs, check quality, suggest improvements |
-| Testing | {Name} | Write tests, find edge cases, verify fixes |
-| Scope & priorities | {Name} | What to build next, trade-offs, decisions |
+| Product scope and architecture | Mal | MVP boundaries, module boundaries, cross-cutting decisions |
+| Dashboard UX and tab shell | Kaylee | Dashboard UI, responsive layout, tab navigation and placeholder messaging |
+| Simulation and state engine | Zoe | Vehicle lifecycle, charging state transitions, metrics computation |
+| Visual design and graphics styling | Inara | Vehicle/truck visuals, bay ambiance, iconography, theme polish |
+| Code review | Mal | Review PRs, check quality, suggest improvements |
+| Testing | Simon | Write tests, find edge cases, verify fixes |
+| Scope & priorities | Mal | What to build next, trade-offs, decisions |
 | Session logging | Scribe | Automatic — never needs routing |
 
 ## Issue Routing
 
 | Label | Action | Who |
 |-------|--------|-----|
-| `squad` | Triage: analyze issue, assign `squad:{member}` label | Lead |
-| `squad:{name}` | Pick up issue and complete the work | Named member |
+| `squad` | Triage: analyze issue, assign `squad:{member}` label | Mal |
+| `squad:mal` | Pick up issue and complete the work | Mal |
+| `squad:kaylee` | Pick up issue and complete the work | Kaylee |
+| `squad:zoe` | Pick up issue and complete the work | Zoe |
+| `squad:simon` | Pick up issue and complete the work | Simon |
+| `squad:inara` | Pick up issue and complete the work | Inara |
 
 ### How Issue Assignment Works
 

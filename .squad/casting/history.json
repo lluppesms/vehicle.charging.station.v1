@@ -1,4 +1,75 @@
 {
-  "universe_usage_history": [],
-  "assignment_cast_snapshots": {}
+  "universe_usage_history": [
+    {
+      "assignment_id": "assignment-20260603-01",
+      "universe": "Firefly",
+      "assigned_at": "2026-06-03T16:29:44.464-05:00",
+      "agent_count": 4
+    },
+    {
+      "assignment_id": "assignment-20260603-02",
+      "universe": "Firefly",
+      "assigned_at": "2026-06-03T17:10:04.753-05:00",
+      "agent_count": 5
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "assignment-20260603-01": {
+      "created_at": "2026-06-03T16:29:44.464-05:00",
+      "universe": "Firefly",
+      "members": [
+        {
+          "agent_key": "mal",
+          "persistent_name": "Mal",
+          "role": "Lead"
+        },
+        {
+          "agent_key": "kaylee",
+          "persistent_name": "Kaylee",
+          "role": "Frontend Dev"
+        },
+        {
+          "agent_key": "zoe",
+          "persistent_name": "Zoe",
+          "role": "Backend Dev"
+        },
+        {
+          "agent_key": "simon",
+          "persistent_name": "Simon",
+          "role": "Tester"
+        }
+      ]
+    },
+    "assignment-20260603-02": {
+      "created_at": "2026-06-03T17:10:04.753-05:00",
+      "universe": "Firefly",
+      "members": [
+        {
+          "agent_key": "mal",
+          "persistent_name": "Mal",
+          "role": "Lead"
+        },
+        {
+          "agent_key": "kaylee",
+          "persistent_name": "Kaylee",
+          "role": "Frontend Dev"
+        },
+        {
+          "agent_key": "zoe",
+          "persistent_name": "Zoe",
+          "role": "Backend Dev"
+        },
+        {
+          "agent_key": "simon",
+          "persistent_name": "Simon",
+          "role": "Tester"
+        },
+        {
+          "agent_key": "inara",
+          "persistent_name": "Inara",
+          "role": "Designer"
+        }
+      ]
+    }
+  }
 }
