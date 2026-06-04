@@ -14,16 +14,13 @@ estimated_reading_time: 4
 
 ## Overview
 
-This repository contains an EV charging station simulation assignment template.
+This repository now includes a runnable client-first MVP shell for the EV charging station simulator.
 
-The target application is a visually rich, modern web page where:
+Current stage includes:
 
-* Cars continuously move on a roadway at the bottom of the screen.
-* Cars are generated at regular intervals and move slowly across the roadway.
-* A user can click a moving car to send it to an available charging slot.
-* The selected car charges over about one minute while battery progress is shown live.
-* The car exits the station and returns to roadway traffic when charging completes.
-* A cumulative metric displays total energy dispensed across all completed sessions.
+* Dashboard tab with working charging bay assignment flow, battery progression, and cumulative kWh metrics.
+* Cars, Stations, Simulation, and Settings as navigable placeholder tabs with explicit future-stage messaging.
+* React + TypeScript + Vite app scaffolded under `src/webapp`.
 
 ## MVP Tab Scope
 
@@ -45,14 +42,37 @@ Use this visual reference as the target interaction style and atmosphere:
 
 ![EV charging simulator target style](docs/images/live-target-state.png)
 
+## Quickstart
+
+From the repository root:
+
+```powershell
+cd src\webapp
+npm install
+npm run dev
+```
+
+Build and quality check:
+
+```powershell
+cd src\webapp
+npm run lint
+npm run build
+```
+
 ## Repository Layout
 
 ```text
 ├── README.md
+├── src/
+│   └── webapp/
+│       ├── src/
+│       ├── package.json
+│       └── vite.config.ts
 └── docs/
-        ├── images/
-        ├── install-squad.md
-        └── prd-vehicle-charging.md
+    ├── images/
+    ├── install-squad.md
+    └── prd-vehicle-charging.md
 ```
 
 ## Next Implementation Scope

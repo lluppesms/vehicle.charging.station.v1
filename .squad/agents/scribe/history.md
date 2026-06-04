@@ -1,16 +1,13 @@
 # Project Context
 
+- **Owner:** Lyle MS Luppes
 - **Project:** vehicle.charging.station
+- **Stack:** Client-first web app (JavaScript/TypeScript + HTML/CSS), final stack to be set during scaffolding
 - **Created:** 2026-06-03
-
-## Core Context
-
-Agent Scribe initialized and ready for work.
-
-## Recent Updates
-
-📌 Team initialized on 2026-06-03
 
 ## Learnings
 
-Initial setup complete.
+- Team cast selected from Firefly universe: Mal, Kaylee, Zoe, Simon.
+- Source requirements are in `docs/prd-vehicle-charging.md`.
+- MVP scope fixed: Dashboard full implementation; Cars, Stations, Simulation, and Settings as functional placeholders with future-stage messaging.
+- Scribe completed session logging for Mal's 2026-06-03 bootstrap work: merged decision inbox, created orchestration and session logs (2026-06-03).
